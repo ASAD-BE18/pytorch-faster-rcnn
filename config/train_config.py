@@ -61,7 +61,7 @@ class Config:
 
     num_class = 2 + 1  # foreground + 1 background
     data_root_dir = "/kaggle/input/crop-dataset-coco-format/ml-project-data-annotated-coco" # for kaggle
-    model_save_dir = "./rcnn_saved/"
+    model_save_dir = "./frcnn_model/"
 
 
 cfg = Config()
