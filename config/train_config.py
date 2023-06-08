@@ -44,7 +44,7 @@ class Config:
 
     device_name = 'cuda:7'
 
-    resume = ''  # pretrained_weights
+    resume = './mobilenet_v2-b0353104.pth'  # pretrained_weights
     start_epoch = 0  # start epoch
     num_epochs = 5000  # train epochs
 
